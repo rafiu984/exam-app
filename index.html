@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my exam</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+
+<main>
+
+<div id="box1">
+<br>
+<label for="name">Name</label>
+<input type="text" id="studentname">
+
+<label for="age">AGE</label>
+<input type="text"  id="studentage">
+
+<label for="">Gender</label>
+<select name="" id="genderselect">
+<option value="">Male</option>
+<option value="">female</option>
+</select>
+<button id="submit">LOGIN</button>
+
+</div>
+
+
+<div id="box2">
+    <p>1 Who is the current president of Nigeria ?</p>
+    <input type="text" id="answer1" disabled>
+<h5 onclick="q1a()">a. Murtala muhammed</h5>
+<h5 onclick="q1b()">b. Olusegun obasanjo</h5>
+<h5 onclick="q1c()">c. Bola ahmed tinubu</h5>
+    <h5 onclick="q1d()" >d. peter obi</h5>
+<button id="next" >Next</button>
+
+
+</div>
+
+
+
+
+<div id="box3">
+
+    <p>2 Which of these is not a programming language ?</p>
+    <input type="text" disabled id="answer2" >
+<h5 onclick="q2a()">a. java script</h5>
+<h5 onclick="q2b()">b. css</h5>
+<h5 onclick="q2c()">c. PHP </h5>
+    <h5  onclick="q2d()">d. java</h5>
+<button id="next2">Next</button>
+<button id="previous">previous</button>
+
+</div>
+
+
+<div id="box4">
+
+    <p>3 What colour combination gives you "orange" colour ?</p>
+    <input type="text" id="answer3" disabled>
+<h5 onclick="q3a()">a. Red and orange</h5>
+<h5 onclick="q3b()">b. Yellow and purple</h5>
+<h5 onclick="q3c()">c. Gold and purple</h5>
+    <h5 onclick="q3d()">d. Yellow and Red</h5>
+<button id="next3">Next</button>
+<button id="previous2">previous</button>
+</div>
+
+
+
+<div id="box5">
+
+    <p>4 in web development, what does the term "css" stand for?</p>
+    <input type="text" id="answer4" disabled>
+<h5 onclick="q4a()">a. casscade style sheet</h5>
+<h5 onclick="q4b()">b. casacading style sheet</h5>
+<h5 onclick="q4c()">c. cascade styling sheet</h5>
+    <h5 onclick="q4d()">d. cascading style sheet</h5>
+    <button id="previous3">previous</button>
+<button id="finalsubmit" onclick="submitfunc()">submit</button>
+
+</div>
+
+
+
+<div class="box6"  id="score" >
+    <p> calculating result. please wait.... </p>
+</div>
+
+
+</div>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
